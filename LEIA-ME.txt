@@ -1,0 +1,9 @@
+LUCAS SILVA TV - projeto LibVLC
+
+Inclui MainActivity convertido para LibVLC, estrutura Gradle e Manifest.
+A playlist M3U deve ser copiada para app/src/main/assets/LUCAS_FILMES_TV.m3u.
+Credenciais IPTV foram substituidas por marcadores por seguranca. Edite no MainActivity.kt: servidorIptv, usuarioIptv e senhaIptv.
+
+Compile com JDK 17 e Android SDK 35: ./gradlew assembleDebug
+
+Observacao: este pacote foi montado a partir do codigo-fonte recuperado; nao foi possivel executar uma compilacao Android neste ambiente. Confirme a compilacao no seu ambiente antes de instalar.

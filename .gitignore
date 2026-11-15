@@ -1,0 +1,8 @@
+local.properties
+.gradle/
+**/build/
+*.m3u
+*.m3u8
+
+build_debug.log
+backup_api36/
