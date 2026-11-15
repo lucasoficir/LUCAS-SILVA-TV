@@ -36,7 +36,7 @@ jobs:
             exit 1
           fi
 
-          yes | "$SDKMANAGER" --sdk_root="$ANDROID_HOME" --licenses
+          yes | "$SDKMANAGER" --sdk_root="$ANDROID_HOME" --licenses || true
 
           "$SDKMANAGER" --sdk_root="$ANDROID_HOME" --install \
             "platform-tools" \
