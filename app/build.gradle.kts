@@ -9,9 +9,12 @@ android { namespace = "com.example.lucassilva.tv"; compileSdk = 36; defaultConfi
 
     
 
+    
+
     kotlinOptions {
         jvmTarget = "17"
     }
 }
+
 
 dependencies { implementation("org.videolan.android:libvlc-all:3.7.7") }
